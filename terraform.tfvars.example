@@ -1,0 +1,8 @@
+# Copy this to terraform.tfvars and customize
+aws_region     = "us-east-1"
+bucket_prefix  = "obsidian-sync"
+iam_user_name  = "obsidian-sync-user"
+vault_path     = "vault"
+
+# Optional: Set to 0 to keep all versions indefinitely
+noncurrent_version_expiration_days = 30

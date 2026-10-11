@@ -1,0 +1,5 @@
+obsidian-config-*
+
+.terraform.lock*
+terraform.tfstate*
+.terraform/*
